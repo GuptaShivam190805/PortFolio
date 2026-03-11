@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 import MusicSite from "../../public/MusicWithShivam.png";
 import QuickChat from "../../public/QuickChat.png";
 import flixhubshiv from "../../public/flixhubshiv.png";
+import cloudinarySaas from "../../public/CloudinarySaas.png";
 
 interface Project {
   title: string;
@@ -34,6 +35,13 @@ const projects: Project[] = [
     preview: "https://music-site-s8kx.vercel.app/",
     status: "Deployed",
   },
+  {
+    title: "Cloudinary Saas",
+    image: CloudinarySaas as ImageMetadata,
+    link: "https://github.com/GuptaShivam190805/cloudinary-saas",
+    preview: "https://cloudinary-saas-blond-gamma.vercel.app/",
+    status: "Deployed",
+  }
 ];
 ---
 
