@@ -1,9 +1,8 @@
 ---
 import { Image } from "astro:assets";
-import svgl from "../../public/svgl.png";
-import stockin from "../../public/stockin.png";
-import moviesfordevs from "../../public/moviesfordevs.png";
-import velez from "../../public/velez.png";
+import MusicSite from "../../public/MusicWithShivam.png";
+import QuickChat from "../../public/QuickChat.png";
+import flixhubshiv from "../../public/flixhubshiv.png";
 
 interface Project {
   title: string;
@@ -15,31 +14,24 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "MoviesForDevs",
-    image: moviesfordevs as ImageMetadata,
-    link: "https://github.com/gothsec/MoviesForDevs",
-    preview: "https://movies-for-devs.vercel.app",
+    title: "flixhubshiv",
+    image: flixhubshiv as ImageMetadata,
+    link: "https://github.com/GuptaShivam190805/movie-site/tree/main",
+    preview: "https://flixhubshiv.netlify.app/",
     status: "Deployed",
   },
   {
-    title: "StockIn",
-    image: stockin as ImageMetadata,
-    link: "https://github.com/gothsec/stockin-demo",
-    preview: "https://stockin-demo.vercel.app",
+    title: "QuickChat",
+    image: QuickChat as ImageMetadata,
+    link: "https://github.com/GuptaShivam190805/Chat_app",
+    preview: "https://chat-app-puce-six-54.vercel.app/login",
     status: "On Development",
   },
   {
-    title: "Svgl.app",
-    image: svgl as ImageMetadata,
-    link: "https://github.com/pheralb/svgl",
-    preview: "https://svgl.app",
-    status: "Contributor",
-  },
-  {
-    title: "Rifas Velez Web",
-    image: velez as ImageMetadata,
-    link: "https://github.com/Buga-Software/rifasvelez-web",
-    preview: "https://www.rifasvelez.com",
+    title: "Music site",
+    image: MusicSite as ImageMetadata,
+    link: "https://github.com/GuptaShivam190805/Music-Site",
+    preview: "https://music-site-s8kx.vercel.app/",
     status: "Deployed",
   },
 ];
